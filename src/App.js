@@ -20,10 +20,8 @@ function App() {
                 </button>
                 <div className="header"> Informations </div>
                 <div className="content">
-                  I weep as so called gods burn my home asunder, One should never meet such fate and yet here I remain.
-                  I hoped to see them smite me, make the suffering end, but alas their immense minds wouldn't show me such
-                  pity. I wish someday to see my family once more, but I don't think the gods will let me, if they have not 
-                  been cast aside already.
+                  ImageInAir est une application de partage d'image en ligne, l'application web permet de visionner les images posté
+                  par les utilisateurs de l'application mobile. 
                 </div>
               </div>
             )}
