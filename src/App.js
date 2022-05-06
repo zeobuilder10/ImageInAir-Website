@@ -31,7 +31,42 @@ function App() {
         </div>
       </header>
       <body>
-        
+        <div className="row_image">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+        </div>
+        <div className="row_image">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+        </div>
+        <div className="row_image">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+        </div>
+        <div className="row_image">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+        </div>
       </body>
     </div>
   );
