@@ -1,7 +1,10 @@
 import { FaInfoCircle } from "react-icons/fa";
 import Popup from 'reactjs-popup';
+import ImageInside from "./components/imageinside";
 import 'reactjs-popup/dist/index.css';
 import './App.css';
+
+/* fait un flex wrap trouduc */
 
 function App() {
   return (
@@ -21,7 +24,9 @@ function App() {
                 <div className="header"> Informations </div>
                 <div className="content">
                   ImageInAir est une application de partage d'image en ligne, l'application web permet de visionner les images posté
-                  par les utilisateurs de l'application mobile. 
+                  par les utilisateurs de l'application mobile. Ceci étant un prototype, la database permettant de récupérer les images
+                  poster par les utilisateurs n'est donc pas en ligne, cependant nous affichons quand même quelques images afin de
+                  démontrer la fonctionnalitée principale du site.
                 </div>
               </div>
             )}
@@ -31,41 +36,8 @@ function App() {
         </div>
       </header>
       <body>
-        <div className="row_image">
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-        </div>
-        <div className="row_image">
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-        </div>
-        <div className="row_image">
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-        </div>
-        <div className="row_image">
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
-          <div className="image"></div>
+        <div>
+          <ImageInside />
         </div>
       </body>
     </div>
